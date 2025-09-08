@@ -7,11 +7,13 @@ The project aims to fight Antimicrobial Resistance (AMR) by enabling early disea
 
 Traditional disease monitoring in poultry is often manual, slow, and reactive.
 This project introduces a proactive, digital solution:
+
 1️⃣ 🔍 Automated image classification of chicken health
 2️⃣ 🚑 Early detection of diseases for timely intervention
 3️⃣ 🌍 Support for responsible antimicrobial usage, reducing AMR risk
 
 The model classifies chicken images into 4 categories:
+
 1️⃣ 🟢 Healthy
 2️⃣ 🦠 Coccidiosis
 3️⃣ 🐦 Newcastle Disease
@@ -28,21 +30,21 @@ The model classifies chicken images into 4 categories:
 🔬 How it Works
 
 1️⃣ Data Preparation
-Trained on the Kaggle Chicken Disease Dataset
-Data pipeline with augmentation for better diversity
+Trained on the Kaggle Chicken Disease Dataset.
+Data pipeline with augmentation for better diversity.
 
 2️⃣ Model Architecture
-Transfer Learning with ResNet50 (pre-trained on ImageNet)
-Fine-tuned for detecting chicken-specific diseases
+Transfer Learning with ResNet50 (pre-trained on ImageNet).
+Fine-tuned for detecting chicken-specific diseases.
 
 3️⃣ Training
-Loss: Categorical Cross-Entropy
-Class Weights to handle imbalance
-EarlyStopping to avoid overfitting
+Loss: Categorical Cross-Entropy.
+Class Weights to handle imbalance.
+EarlyStopping to avoid overfitting.
 
 4️⃣ Evaluation
-Accuracy & loss plots for training visualization
-Predictions with confidence scores on test images
+Accuracy & loss plots for training visualization.
+Predictions with confidence scores on test images.
 
 📁 Files & Folders
 
@@ -54,6 +56,7 @@ Predictions with confidence scores on test images
 
 🚀 Getting Started
 ✅ Prerequisites
+
 1️⃣ Python 3.x
 2️⃣ TensorFlow
 3️⃣ Pandas
@@ -61,15 +64,24 @@ Predictions with confidence scores on test images
 5️⃣ Matplotlib
 
 📦 Install dependencies:
+
 pip install tensorflow pandas scikit-learn matplotlib
 
-▶️ Running the Code:
+▶️ Running the Code
+
 1️⃣ Clone this repository
 2️⃣ Place train_data.csv + Train/ folder in the project directory
-3️⃣ Train the model: python train.py
-4️⃣ Test the model on an image (update image_path in evaluate.py): python main.py
+3️⃣ Train the model:
 
-🎤 Jury Presentation & 🌟 Future Scope:
+python main.py
+
+
+4️⃣ Test the model on an image (update image_path in evaluate.py):
+
+python evaluate.py
+
+🎤 Jury Presentation & 🌟 Future Scope
+
 1️⃣ 📡 Integration with a real-time monitoring system
 2️⃣ 🧬 Expansion of dataset with more diseases
 3️⃣ 📱 Deployment with lightweight models (e.g., MobileNet) for mobile applications
