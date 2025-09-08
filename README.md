@@ -86,4 +86,26 @@ python evaluate.py
 2️⃣ 🧬 Expansion of dataset with more diseases
 3️⃣ 📱 Deployment with lightweight models (e.g., MobileNet) for mobile applications
 
+📥 Dataset
+
+This project is trained on the Chicken Disease Dataset from Kaggle.
+Since the dataset is large, only a small sample (CSV file + few images per class) is included in this repository for reference.
+
+🔗 Full Dataset
+
+You can download the complete dataset from Kaggle:
+👉 Chicken Disease Dataset on Kaggle
+ https://www.kaggle.com/datasets/allandclive/chicken-disease-1
+
+📂 Included in this Repository
+
+1️⃣ train_data.csv → Contains image filenames and labels
+2️⃣ /Train/ (sample only) → Few images from each category (Healthy, Coccidiosis, Newcastle, Salmonella)
+
+📦 Instructions to Use Full Dataset
+
+1️⃣ Download the dataset from Kaggle
+2️⃣ Extract the files
+3️⃣ Place the full Train/ folder and train_data.csv into your project directory
+
 👉 This project bridges AI + Poultry Health to fight AMR and promote sustainable farming. 🌍✨
